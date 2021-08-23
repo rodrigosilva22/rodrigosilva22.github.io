@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.header{
+    font-size: 50px;
+    padding-left: 20px;
+    color: rgb(118, 77, 156);
+    font-weight: 300;
+    display: flex;
+    background-image: url(/img/fundo-logo.jpg);
+  
+    
+}
+
+
+.logo-fundo{
+    margin-left: 21px;
+    height: 273px;
+    width: 400px;
+}
+
+
+.contener{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.navbr{
+    width: 20%;
+    display: flex;
+    font-size: 25px;
+    padding: 30px;
+    color: rgb(5, 10, 1);
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(238, 239, 241);
+   
+}
+.navbr ul{
+    color: chartreuse;
+    list-style:none ;
+    
+}
+.navbr ul li{
+    background: darkblue;
+    padding: 10px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 15px 0 15px 0;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.navbr ul li a{
+    color: chartreuse;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.content{
+    width: 80%;
+    background-color: rgba(206, 208, 209, 0.26);
+    padding: 70px;
+    color: rgb(13, 13, 14);
+    font-size: 20px; 
+    font-weight: 700;
+   
+    
+}
+.footer{
+    background: rgb(225, 228, 226);
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top:-49px;
+     color:  rgb(27,228,212);
+    
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top:-49px;
+    color:  rgb(10, 228, 57);
+    
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    margin-top:-49px;
+    color:  rgb(253, 57, 57);
+}
+
+.span{
+    font-weight: 200;
+}
+
+
+.video{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
